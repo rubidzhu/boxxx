@@ -197,11 +197,15 @@
 
 
 
-{"key":"公告","name":"——————————","type":3,"api":"","searchable":0,"quickSearch":0,"filterable":0},
-{"key":"说明1","name":"菜妮丝","type":3,"api":"","searchable":0,"quickSearch":0,"filterable":0},
-{"key":"说明2","name":"https://cainisi.cf","type":3,"api":"","searchable":0,"quickSearch":0,"filterable":0},
-{"key":"说明3","name":"免费接口更新维护","type":3,"api":"","searchable":0,"quickSearch":0,"filterable":0},
-{"key":"说明4","name":"不要相信视频中的任何广告","type":3,"api":"","searchable":0,"quickSearch":0,"filterable":0}
+    {
+      "key": "本地",
+      "name": "本地",
+      "type": 3,
+      "api": "csp_Local",
+      "searchable": 0,
+        "jar":"https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;945ad30d5255359385ba59b8fb061bb7",
+      "changeable": 0
+    }
 ],
 
 //解析接口同步肥猫的
