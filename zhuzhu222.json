@@ -3,6 +3,13 @@
 "友情提醒": "本接口中的网络资源均来自于网络和各位互联网大佬的仓库，经各种整合而成，只为方便小白使用，如有冒犯请联系删除",
 
 "sites":[
+         {
+            "key" : "直播",
+            "name" : "💻电视直播",
+            "type" : 3,
+            "api" : "https://raw.iqiq.io/lmlmi/ooo/master/js/lib/直播转点播.js",
+            "ext" : "南风$https://raw.iqiq.io/lmlmi/ooo/master/live.txt#肥猫$http://我不是.肥猫.love:63/TV/tvzb.txt#饭太硬$https://agit.ai/fantaiying/fty/raw/branch/master/live.txt#影视范$https://agit.ai/fantaiying/fmm/raw/branch/main/tv/m3u/global.m3u&&&https://api.caonm.net/api/mc/"
+        },
 {"key":"360影视","name":"360┃官源","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./xBPQ/360影视.json"},
 {"key":"布蕾影城","name":"布蕾┃影视","type":3,"api":"csp_BuLei","searchable":1,"quickSearch":1,"filterable":1,"ext": "http://v.ilime.cc$$$login$$$sdlw1111$$$qqaa1122"},
 {"key":"YQK_spider","name":"一起看┃影视","api":"csp_YQKAPP","type":3,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://api-aws.11ty.top"},
