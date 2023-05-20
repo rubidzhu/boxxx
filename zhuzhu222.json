@@ -204,15 +204,9 @@
 
 
 
-    {
-      "key": "本地",
-      "name": "本地",
-      "type": 3,
-      "api": "csp_Local",
-      "searchable": 0,
-        "jar":"https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;945ad30d5255359385ba59b8fb061bb7",
-      "changeable": 0
-    }
+{"key":"本地","name":"💻本地视频","type":3,"api":"csp_Local","searchable":0,"quickSearch":0,"filterable":0,
+ "jar":"./jar/YSC.jar;md5;0c8f389da29fc3ee9ecf2e94fc8a1c88"
+ "type_flag":0}
 ],
 
 //解析接口同步肥猫的
