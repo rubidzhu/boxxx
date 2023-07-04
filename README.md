@@ -1,97 +1,121 @@
 tvbox配置文件。所有资源均来自于各路大神无私分享，如有侵权，请联系删除。
+
+任何人以任何方式查看本仓库内容的人或直接或间接使用本仓库内容的使用者都应仔细阅读此声明。本仓库管理者保留随时更改或补充此免责声明的权利。一旦使用、复制、修改了本仓库内容，则视为您已接受此免责声明。
+
+本仓库管理者不能保证本仓库内容的合法性、准确性、完整性和有效性，请根据情况自行判断。本仓库内容，仅用于测试和学习研究，禁止用于商业用途，不得将其用于违反国家、地区、组织等的法律法规或相关规定的其他用途，禁止任何公众号、自媒体进行任何形式的转载、发布，请不要在中华人民共和国境内使用本仓库内容，否则后果自负。
+
+本仓库内容中涉及的第三方硬件、软件等，与本仓库内容没有任何直接或间接的关系。本仓库内容仅对部署和使用过程进行客观描述，不代表支持使用任何第三方硬件、软件。使用任何第三方硬件、软件，所造成的一切后果由使用的个人或组织承担，与本仓库内容无关。
+
+所有直接或间接使用本仓库内容的个人和组织，应 24 小时内完成学习和研究，并及时删除本仓库内容。如对本仓库内容的功能有需求，应自行开发相关功能。所有基于本仓库内容的源代码，进行的任何修改，为其他个人或组织的自发行为，与本仓库内容没有任何直接或间接的关系，所造成的一切后果亦与本仓库内容和本仓库管理者无关。
+
+
 1. tvbox配置：
 
-（1）0820.json  较全面的源，jar的来源于WEWA（饭太硬）的jar包；
+（1）0821.json  在饭太硬配置的基础上添加了若干优质点播源、直播线路和解析；
 
-（2）0826.json  完全来源于WEWA（饭太硬）的jar包和配置；
+（2）0825.json  jar包来源于Panda Groove的go包，token.txt的写法见于“https://t.me/TVBoxxoo/27464/77911 ”；
 
-（3）0827.json  jar包和配置来源于fongmi；
+（3）0826.json  完全来源于饭太硬的jar包和配置；
 
-（4）js.json  资源来源于watson（猫爪）收集整理的道长drpy(js)资源；
+（4）0827.json  jar包和配置来源于fongmi；
 
-（5）xBPQ.json  xBPQ源，jar包和配置来源于菜妮丝；
+（5）0828.json  jar包和配置来源于唐三；
 
-（6）XYQ.json  XYQ源，jar包和配置来源于香雅情。
+（6）js.json  资源来源于道长drpy(js)仓库；
 
-APP推荐使用FongMi版本（项目地址：https://github.com/FongMi/TV ）和q215613905版本（项目地址：https://github.com/q215613905/TVBoxOS ），FongMi版支持直播多线路，q215613905版支持直播回放。
+（7）XYQ.json  XYQ源，jar包和配置来源于香雅情。
 
-2. TVBox各路大佬配置（排名不分先后）：
+（8）XBPQ.json  XBPQ源，jar包和配置来源于小米小爆脾气。
 
-（1）唐三：https://hutool.ml/tang
+2. APP推荐:
+
+（1）FongMi版本  项目地址：https://github.com/FongMi/TV 支持直播多线路、支持自动换源、支持直播倍速，手机版支持投屏；
+
+（2）q215613905版本  项目地址：https://github.com/q215613905/TVBoxOS 支持直播回放；
+
+（3）takagen99版本  项目地址：https://github.com/takagen99/Box 支持直播回放，界面美观；
+
+（4）皮皮虾版本  发布频道：https://t.me/pipixiawerun 支持直播回放，支持弹幕。
+
+3. TVBox各路大佬配置（排名不分先后）：
+
+（1）唐三：https://gh.t4tv.hz.cz/newtang.bmp
 
 （2）Fongmi：https://ghproxy.com/https://raw.githubusercontent.com/gaotianliuyun/fongmi/main/json/config.json
 
 （3）俊于：http://home.jundie.top:81/top98.json
 
-（4）饭太硬：http://饭太硬.ga/tv
+（4）饭太硬：http://饭太硬.top/tv
 
 （5）肥猫：http://我不是.肥猫.love:63/接口禁止贩卖
 
 （6）霜辉月明py：https://ghproxy.com/raw.githubusercontent.com/lm317379829/PyramidStore/pyramid/py.json
 
-（7）菜妮丝：https://tvbox.cainisi.cf
+（7）小米小爆脾气：http://xhww.fun:63/小米/DEMO.json
 
-（8）香雅情：https://framagit.org/lzk23559/TVRule/-/raw/main/XYQTVBox.json
+（8）小雅：http://drpy.site/js1
 
-（9）运输车：https://github.moeyy.xyz/https://raw.githubusercontent.com/52670576/tvbox/main/ysc.json
+（9）菜妮丝：https://tvbox.cainisi.cf
 
-（10）多多：https://yydsys.top/duo
+（10）香雅情：https://ghproxy.com/https://raw.githubusercontent.com/xyzjhe/XYQ0531/main/XYQTVBox.json
 
-（11）南风：https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json
+（11）运输车：https://github.moeyy.xyz/https://raw.githubusercontent.com/52670576/tvbox/main/ysc.json
 
-（12）神器：https://神器每日推送.tk/pz.json
+（12）多多：https://yydsys.top/duo
 
-（13）巧技：http://pandown.pro/tvbox/tvbox.json
+（13）南风：https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json
 
-（14）吾爱有三：http://52bsj.vip:98/0805
+（14）神器：https://神器每日推送.tk/pz.json
 
-（15）潇洒：https://download.kstore.space/download/2863/01.txt
+（15）巧技：http://pandown.pro/tvbox/tvbox.json
 
-（16）佰欣园：https://ghproxy.com/https://raw.githubusercontent.com/chengxueli818913/maoTV/main/44.txt
+（16）那里花开：http://hz752.love:63/tk.json
 
-（17）胖虎：https://notabug.org/imbig66/tv-spider-man/raw/master/配置/0801.json
+（17）吾爱有三：http://52bsj.vip:98/0805
 
-（18）云星日记：https://maoyingshi.cc/tvbox/云星日记/1.m3u8
+（18）潇洒：https://download.kstore.space/download/2863/01.txt
 
-（19）Yoursmile7：https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json
+（19）佰欣园：https://ghproxy.com/https://raw.githubusercontent.com/chengxueli818913/maoTV/main/44.txt
 
-（20）Ray：https://ghproxy.com/https://raw.githubusercontent.com/dxawi/0/main/0.json
+（20）胖虎：https://notabug.org/imbig66/tv-spider-man/raw/master/配置/0801.json
 
-（21）甜蜜：https://kebedd69.github.io/TVbox-interface/py甜蜜.json
+（21）云星日记：http://itvbox.cc/tvbox/云星日记/1.m3u8
 
-（22）月光宝盒：https://jihulab.com/ygbh1/box/-/raw/main/月光宝盒
+（22）Yoursmile7：https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json
 
-3. 随机轮换壁纸：
+（23）Ray：https://ghproxy.com/https://raw.githubusercontent.com/dxawi/0/main/0.json
 
-（1）https://tian.chuqiuyu.tk  自制横屏精美壁纸1
+（24）甜蜜：https://kebedd69.github.io/TVbox-interface/py甜蜜.json
 
-（2）https://yun.chuqiuyu.tk  自制横屏精美壁纸2
+（25）月光宝盒：https://jihulab.com/ygbh1/box/-/raw/main/月光宝盒
 
-（3）https://shuping.chuqiuyu.tk  自制竖屏精美壁纸
+（26）好人：https://xhdwc.tk/0
 
-（4）https://jianbian.chuqiuyu.tk  自制渐变简约壁纸
+4. 随机轮换壁纸：
 
-（5）https://bing.img.run/rand.php
+（1）https://jianbian.chuqiuyu.tk  自制渐变简约壁纸
 
-（6）http://www.kf666888.cn/api/tvbox/img
+（2）https://bing.img.run/rand.php
 
-（7）https://picsum.photos/1280/720/?blur=10
+（3）http://www.kf666888.cn/api/tvbox/img
 
-（8）http://刚刚.live/图 
+（4）https://picsum.photos/1280/720/?blur=10
 
-（9）http://饭太硬.ga/深色壁纸/api.php
+（5）http://刚刚.live/图 
 
-（10）https://www.dmoe.cc/random.php
+（6）http://饭太硬.top/深色壁纸/api.php
 
-（11）https://api.btstu.cn/sjbz/zsy.php
+（7）https://www.dmoe.cc/random.php
 
-（12）https://api.btstu.cn/sjbz/?lx=dongman
+（8）https://api.btstu.cn/sjbz/zsy.php
 
-（13）http://api.btstu.cn/sjbz/?lx=meizi
+（9）https://api.btstu.cn/sjbz/?lx=dongman
 
-（14）http://api.btstu.cn/sjbz/?lx=suiji
+（10）http://api.btstu.cn/sjbz/?lx=meizi
 
-（15）https://pictures.catvod.eu.org/
+（11）http://api.btstu.cn/sjbz/?lx=suiji
+
+（12）https://pictures.catvod.eu.org/
 
 如果喜欢，请点亮右上角小星星，谢谢！
 
