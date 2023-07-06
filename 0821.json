@@ -135,6 +135,11 @@
 {"key":"csp_XP_独播库","name":"独播库•飞[XPMF]","type":3,"api":"csp_XPathMacFilter","playerType":0,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/duboku.json"},
 
 {"key":"push_agent","name":"手机推送","type":3,"api":"csp_Push","searchable":0,"quickSearch":0,"filterable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto"},
+
+
+
+
+{"key": "本地","name": "💻本地视频","type": 3,"api": "csp_Local","searchable": 0, "quickSearch": 0, "filterable": 0,"jar":"https://ghproxy.com/https://raw.githubusercontent.com/rubidzhu/boxxx/dev/jar/YSC.jar;md5;0c8f389da29fc3ee9ecf2e94fc8a1c88","type_flag": 0},
 {"key":"aa","name":"配置接口完全免费","type":3,"api":"csp_XPath","searchable":0,"quickSearch":0,"filterable":0},
 {"key":"cc","name":"请勿相信视频中任何广告","type":3,"api":"csp_XPath","searchable":0,"quickSearch":0,"filterable":0}
 ],
