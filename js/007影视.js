@@ -24,10 +24,25 @@ var rule = {
         "20":[{"key":"by","name":"排序","value":[{"n":"时间","v":"time"},{"n":"人气","v":"hits"},{"n":"评分","v":"score"}]}]
     },
     class_parse: '.stui-header__menu li:gt(0):lt(9);a&&Text;a&&href;.*/(.*?).html',
-    lazy:"js:var html=JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);log(html);var url=html.url;if(html.encrypt=='1'){url=unescape(url)}else if(html.encrypt=='2'){url=unescape(base64Decode(url))}if(/m3u8|mp4/.test(url)){input=url}else if(/qq|iqiyi/.test(url)){input={jx:0,url:'https://jx.m3u8.tv/jiexi/?url='+url,parse:1,header:JSON.stringify({'user-agent':'Mozilla/5.0'})}}else{input}",
+    lazy:`js:var html=JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);
+    log(html);
+    var url=html.url;
+    if(html.encrypt=='1'){
+    url=unescape(url)
+    }else if(html.encrypt=='2'){
+    url=unescape(base64Decode(url))
+    }
+    if(/m3u8|mp4/.test(url)){
+    input=url
+    }else if(/qq|iqiyi/.test(url)){
+    input={jx:0,url:'https://jx.m3u8.tv/jiexi/?url='+url,parse:1,header:JSON.stringify({'user-agent':'Mozilla/5.0'})}
+    }else{
+    input
+    }`,
 
     // searchUrl:'/search/**----------fypage---.html',
-    searchUrl:'/index.php/ajax/suggest?mid=1&wd=**',
+    searchUrl:'/index.php/ajax/suggest?mid=1&wd=**&limit=50',
+    // searchUrl:'/VSP/V3/SearchContent#{"contentTypes":["VOD"],"searchScopes":["CONTENT_NAME","ACTOR"],"sortType":["RELEVANCE"],"count":8,"offset":0,"SearchKey":"**","subjectID":"10000100000000090000000000001323"};postjson',
     detailUrl:'/detail/fyid.html', //非必填,二级详情拼接链接
     搜索:'json:list;name;pic;;id',
 }
