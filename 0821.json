@@ -161,6 +161,9 @@
 {"key":"csp_XP_gongreng","name":"影视┃工人影视[XPMF]","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/gongreng.json"},
 {"key":"csp_XP_独播库","name":"影视┃独播库•飞[XPMF]","type":3,"api":"csp_XPathMacFilter","playerType":0,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/duboku.json"},
 
+  {"key":"drpy_js_88看球","name":"🏀88看球","type":3,"api":"https://cdn05042023.gitlink.org.cn/api/v1/repos/hjdhnx/dr_py/raw/libs/drpy2.min.js","ext":"https://cdn05042023.gitlink.org.cn/api/v1/repos/hjdhnx/dr_py/raw/master/js/88看球.js"},
+{"key": "本地","name": "💻本地视频","type": 3,"api": "csp_Local","searchable": 0, "quickSearch": 0, "filterable": 0,"jar":"./jar/YSC.jar;md5;0c8f389da29fc3ee9ecf2e94fc8a1c88","type_flag": 0}
+
 {"key":"bb","name":"配置接口完全免费","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"},
 {"key":"cc","name":"请勿相信视频中任何广告","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"}
 ],
